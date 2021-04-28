@@ -1,0 +1,16 @@
+{
+  "name": "hack_apac",
+  "version": "1.0.0",
+  "description": "an app that displays info about states",
+  "main": "index.js",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Anushka Bahuguna",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

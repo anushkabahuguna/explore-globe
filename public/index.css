@@ -1,0 +1,118 @@
+html, body
+{
+    padding: 0;
+   
+     margin: 0;
+}
+#map{
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    background-color: #000; 
+    position: absolute !important;
+}
+#coords{
+    position: absolute; 
+    bottom: 10px;
+     right: 10px;
+      z-index: 100000;
+}
+#buttons {
+    position: absolute; 
+    top:10px; 
+    z-index: 2;
+    left: 10px;
+}
+#layercontrol{
+    position: absolute; 
+    top:10px;
+     right: 10px;
+}
+
+#addmarkers{
+    margin:78px;
+    
+}
+.content{
+    background-color: palevioletred;
+}
+.loadscreen{
+    background-color:  #fdcde7;;
+    opacity: 100%;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.loadbtn
+{
+    
+   
+    -webkit-appearance: none;
+  background: -webkit-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+  background: linear-gradient(to right, #a2ccb6 0%, #fceeb5 50%, #ee786e 100%);
+  background-size: 500%;
+  border: none;
+  border-radius: 5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  color: #fff;
+  cursor: pointer;
+  font: 1.5em Raleway, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 5rem;
+  letter-spacing: 0.05em;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 20rem;
+
+
+
+}
+.loadbtn:hover {
+    animation-name: gradient;
+    -webkit-animation-name: gradient;
+    animation-duration: 2s;
+    -webkit-animation-duration: s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+
+  #buttons
+  {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    width: 99%;
+    height:99%;
+  }
+
+
+
